@@ -12,11 +12,12 @@ from calvin_agent.datasets.utils.episode_utils import (
 )
 import numpy as np
 from omegaconf import DictConfig
-import pyhash
+#import pyhash
 import torch
 from torch.utils.data import Dataset
 
-hasher = pyhash.fnv1_32()
+#hasher = pyhash.fnv1_32()
+hasher = lambda x: 0
 logger = logging.getLogger(__name__)
 
 

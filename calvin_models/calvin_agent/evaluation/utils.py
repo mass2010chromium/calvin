@@ -13,10 +13,11 @@ import hydra
 import numpy as np
 from numpy import pi
 from omegaconf import OmegaConf
-import pyhash
+#import pyhash
 import torch
 
-hasher = pyhash.fnv1_32()
+#hasher = pyhash.fnv1_32()
+hasher = lambda x: 0
 logger = logging.getLogger(__name__)
 
 
